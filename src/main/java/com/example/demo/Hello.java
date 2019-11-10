@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("redconsole3")
 public class Hello {
 
-    @GetMapping("/helloBeans")
+    @GetMapping("/hello")
     public String test(){
         return "Hello Beans Talk";
     }
