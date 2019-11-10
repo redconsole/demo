@@ -10,7 +10,7 @@ public class Hello {
 
     @GetMapping("/hello")
     public String test(){
-        return "Hello Beans Talk";
+        return "Hello EC2";
     }
 
     @GetMapping("/beanstalk")
