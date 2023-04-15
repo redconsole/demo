@@ -15,6 +15,7 @@ public class Hello {
 
     @GetMapping("/beanstalk")
     public String hello(){
+	System.out.println("Hello only);
         return "BeansTalk Testing going on";
     }
 }
